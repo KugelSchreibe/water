@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
 header {
   position: fixed;
   width: 100%;
@@ -17,10 +20,15 @@ header {
   font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
-.logo p {
+.logo a {
   font-size: 40px;
   color: white;
   line-height: 76px;
+  text-decoration: none
+}
+
+.logo a:visited {
+  color: white;
 }
 
 .site-content {

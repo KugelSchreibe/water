@@ -16,6 +16,15 @@
   line-height: 50px;
 }
 
+.footer-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-info a:visited {
+  color: white;
+}
+
 .mail {
   float: left;
   font-weight: bold;

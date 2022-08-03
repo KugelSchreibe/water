@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="./styles/useful.css">
   <link rel="stylesheet" href="./styles/about_us.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="./js/team.js"></script>
+  <script type="text/javascript" charset="utf-8" src="./parallax.js-1.5.0/parallax.min.js"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
-  </style>
 
   <title>WateR</title>
 </head>
@@ -22,9 +22,9 @@
 
 <header>
   <div class="logo">
-    <p>
+    <a href="#">
       WateR
-    </p>
+    </a>
   </div>
 
   <div class="site-content">
@@ -44,7 +44,7 @@
   </div>
 </header>
 
-<div class="intro">
+<div class="intro" data-parallax="scroll" data-image-src="./img/clear_water.png">
   <h1 class="main-title">Чистая вода для Вас!</h1>
 
   <h2 class="main-info">Доставка в течение нескольких часов</h2>
@@ -53,10 +53,9 @@
 </div>
 
 <div class="main-background">
-  <a name="about_us"></a>
-  <div class="place">
+  <div class="place" id="about_us">
     <div class="column-40-60">
-      <img class="baikal-photo" src="./img/baikal.jpeg" alt="baikal">
+      <img class="baikal-photo" src="img/baikal.jpg" alt="baikal">
       <div class="baikal-description">
         Вода, которую мы Вам доставляем, прошла долгий путь от подземных источников до наземных ручьёв. И вот она у вас!
         Источник вашей воды - Байкал - сердце русских озер. Это самое глубокое озеро на земном шаре. Глубина его
@@ -85,8 +84,8 @@
   </div>
 
   <div class="useful">
-      <div class="title-package">
-        <a name="packages">Пакеты</a>
+      <div class="title-package" id="packages">
+        Пакеты
       </div>
 
       <div class="all-variants">
@@ -98,7 +97,9 @@
                   SMALL
                 </div>
                 <div class="describe-package">
-                  Небольшой<br> пакет<br> 25 литров.
+                  <p>Небольшой</p>
+                  <p>пакет</p>
+                  <p>25 литров</p>
                 </div>
                 <a class="buy-button" href="#">купить</a>
               </div>
@@ -112,7 +113,9 @@
                   MIDDLE
                 </div>
                 <div class="describe-package">
-                  Средний<br> пакет<br> 50 литров.
+                  <p>Средний</p>
+                  <p>пакет</p>
+                  <p>50 литров</p>
                 </div>
                 <a class="buy-button" href="#">купить</a>
               </div>
@@ -126,7 +129,9 @@
                   HUGE
                 </div>
                 <div class="describe-package">
-                  Большой<br> пакет<br> 120 литров.
+                  <p>Большой</p>
+                  <p>пакет</p>
+                  <p>120 литров</p>
                 </div>
                 <a class="buy-button" href="#">купить</a>
               </div>
@@ -142,8 +147,8 @@
     <p>
       Связаться с нами:
     </p>
-    <p class="mail">water.mail.ru</p>
-    <p class="phone">+7 999 123 45 67</p>
+    <a class="mail" href="mailto:mail@htmlacademy.ru">water.mail.ru</a>
+    <a class="phone" href="tel:+79991234567">+7 999 123 45 67</a>
   </div>
 </footer>
 
