@@ -1,0 +1,97 @@
+@media (max-width: 940px) {
+  .column-40-60 .baikal-photo, .column-40-60 .baikal-description {
+    float: none;
+    margin: auto;
+    padding: 0;
+  }
+
+  .column-40-60 .baikal-photo {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .column-40-60 .baikal-description {
+    margin-bottom: 100px;
+  }
+
+  .column-60-40 .cmu-photo, .column-60-40 .cmu-description {
+    float: none;
+    margin: auto;
+    padding: 0;
+  }
+
+  .column-60-40 .cmu-photo {
+    display: block;
+    margin-bottom: 200px;
+  }
+
+  .column-60-40 .cmu-description {
+    margin-bottom: 50px;
+  }
+
+  .all-variants ul li.package {
+    float: none;
+    margin: auto;
+    width: 350px;
+  }
+
+  .package:after {
+    content: '';
+    clear: both;
+  }
+
+  .useful .title-package {
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 610px) {
+  .head-list li {
+    width: 100px;
+    line-height: 76px;
+  }
+
+  .logo p {
+    font-size: 30px;
+  }
+
+  .logo {
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+
+  .site-content {
+    float: none;
+    margin-left: 50px;
+  }
+
+  .head-list li {
+    width: 82px;
+    float: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .column-60-40, .column-40-60 {
+    padding: 0;
+  }
+
+  .place .cmu-description, .place .baikal-description {
+    font-size: 20px;
+    margin: auto;
+    hyphens: auto;
+  }
+
+  .footer-info .mail {
+    font-size: 18px;
+    margin-left: 10%;
+  }
+
+  .footer-info .phone {
+    font-size: 18px;
+    margin-right: 10%;
+  }
+}

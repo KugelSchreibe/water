@@ -1,0 +1,63 @@
+.useful {
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+.useful div {
+  font-size: 26px;
+}
+
+.useful ul {
+  list-style-type: none;
+}
+
+.all-variants {
+  max-width: 950px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all-variants:after {
+  content: '';
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.package {
+  margin-top: 50px;
+  width: 33.33%;
+  height: 400px;
+  float: left;
+}
+
+.variant {
+  border-radius: 15px;
+  padding: 10px;
+  padding-bottom: 20px;
+  background: #217597;
+}
+
+.middle {
+  background: #259bcb;
+}
+
+.huge {
+  background: #1cb5f3;
+}
+
+.variant a {
+  margin-top: 20px;
+}
+
+.border {
+  padding: 10px;
+}
+
+.variant .title {
+  margin-bottom: 50px;
+  font-weight: bold;
+}

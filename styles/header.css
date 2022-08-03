@@ -1,0 +1,48 @@
+header {
+  position: fixed;
+  width: 100%;
+  background: #217597;
+  top: 0;
+  opacity: 95%;
+  height: 76px;
+
+  font-family: 'Mukta', sans-serif;
+}
+
+.logo {
+  float: left;
+  width: 20%;
+  margin-left: 15%;
+  text-align: center;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.logo p {
+  font-size: 40px;
+  color: white;
+  line-height: 76px;
+}
+
+.site-content {
+  color: white;
+  max-width: 520px;
+  margin-right: 0;
+  float: right;
+}
+
+.head-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.head-list li {
+  float: left;
+  width: 130px;
+  line-height: 76px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.head-list ul {
+  align-content: center;
+}

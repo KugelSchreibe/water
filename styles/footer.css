@@ -1,0 +1,32 @@
+.footer-info {
+  margin-top: 0;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+
+  background-image: linear-gradient(to bottom, #2c7c9c, rgba(1, 64, 120, 0.1) 0%),
+  url("../img/footer_back(1).jpg");
+  background-repeat: no-repeat;
+}
+
+.footer-info {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.mail {
+  float: left;
+  font-weight: bold;
+  font-size: 26px;
+  margin-left: 25%;
+}
+
+.phone {
+  float: right;
+  font-weight: bold;
+  font-size: 26px;
+  margin-right: 25%;
+}
+
